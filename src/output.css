@@ -604,7 +604,7 @@ body {
 }
 
 .intro__body--text{
-  margin-bottom: 2rem;
+  margin: 2rem;
   font-weight: 500;
   line-height: 2;
 }

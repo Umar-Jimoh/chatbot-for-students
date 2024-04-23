@@ -31,7 +31,7 @@ body {
 }
 
 .intro__body--text {
-  @apply font-medium mb-8 md:m-10 leading-loose;
+  @apply font-medium m-8 md:m-10 leading-loose;
 }
 
 .btn {
