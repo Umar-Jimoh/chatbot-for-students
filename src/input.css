@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #3e3e3e;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*note: Student UI*/
+.wrapper {
+  @apply flex justify-center items-center h-screen text-center;
+}
+
+.intro {
+  @apply bg-white shadow-xl rounded-xl overflow-hidden;
+}
+
+.intro__title {
+  @apply text-4xl font-bold p-10 tracking-wider bg-purple-600 text-white;
+}
+
+.intro__body {
+    @apply mt-20 mb-10
+}
+
+.intro__body--text {
+  @apply font-medium mb-8 md:m-10 leading-loose;
+}
+
+.btn {
+  @apply py-4 px-6 font-semibold rounded-xl;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transition-duration: 0.2s;
+}
+
+.btn--purple {
+  @apply bg-purple-600 text-white tracking-wider;
+}
