@@ -598,6 +598,11 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.heading--flex{
+  display: flex;
+  justify-content: space-between;
+}
+
 .chatbot__body{
   margin-top: 5rem;
   margin-bottom: 2.5rem;
@@ -635,4 +640,38 @@ body {
   letter-spacing: 0.05em;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+/* note: Chatbox */
+
+.chatbot__form{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border-top-width: 2px;
+}
+
+@media (min-width: 768px){
+  .chatbot__form{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.chatbot__input--field{
+  margin-top: 1rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.icon{
+  margin-left: 1.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.icon--white{
+  --tw-text-opacity: 1;
+  color: rgb(147 51 234 / var(--tw-text-opacity));
 }

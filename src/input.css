@@ -26,8 +26,12 @@ body {
   @apply text-4xl font-bold p-10 tracking-wider bg-purple-600 text-white;
 }
 
+.heading--flex  {
+    @apply flex justify-between
+}
+
 .chatbot__body {
-    @apply mt-20 mb-10
+  @apply mt-20 mb-10;
 }
 
 .chatbot__body--intro {
@@ -39,10 +43,27 @@ body {
 }
 
 .btn:hover {
-    opacity: 0.9;
-    transition-duration: 0.2s;
+  opacity: 0.9;
+  transition-duration: 0.2s;
 }
 
 .btn--purple {
   @apply bg-purple-600 text-white tracking-wider;
+}
+
+/* note: Chatbox */
+.chatbot__form {
+  @apply mx-8 mb-8 md:mb-8 md:mx-10 border-t-2;
+}
+
+.chatbot__input--field {
+  @apply outline-none mt-4;
+}
+
+.icon {
+  @apply ml-6 w-12 h-12;
+}
+
+.icon--white {
+  @apply text-purple-600;
 }
