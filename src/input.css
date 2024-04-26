@@ -26,8 +26,8 @@ body {
   @apply text-4xl font-bold p-10 tracking-wider bg-purple-600 text-white;
 }
 
-.heading--flex  {
-    @apply flex justify-between
+.heading--flex {
+  @apply flex justify-between;
 }
 
 .chatbot__body {
@@ -66,4 +66,25 @@ body {
 
 .icon--white {
   @apply text-purple-600;
+}
+
+/* note: chat-window */
+::-webkit-scrollbar{
+  @apply w-0 overscroll-contain
+}
+
+.chat-window {
+  @apply mx-10 py-8 h-[42rem] flex flex-col items-end overflow-y-auto;
+}
+
+.chat-message {
+  @apply p-3 my-3 rounded-2xl max-w-96 text-left;
+}
+
+.user-message {
+  @apply bg-purple-600 text-white;
+}
+
+.ai-message {
+  @apply bg-slate-200 self-start;
 }
