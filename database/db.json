@@ -1,0 +1,9 @@
+{
+    "chats": [
+        {
+            "id": 1,
+            "user": "I'm a student",
+            "ai": "Nice to hear that, whatcan i help you with today?"
+        }
+    ]
+}
