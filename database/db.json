@@ -1,9 +1,79 @@
 {
-    "chats": [
-        {
-            "id": 1,
-            "user": "I'm a student",
-            "ai": "Nice to hear that, whatcan i help you with today?"
-        }
-    ]
+  "chats": [
+    {
+      "id": 1,
+      "user": "I'm a student",
+      "ai": "Nice to hear that! What can I help you with today?"
+    },
+    {
+      "id": 2,
+      "user": "Hi, what can you do?",
+      "ai": "I can answer your questions about various topics, help you with assignments, and provide study resources. What are you interested in?"
+    },
+    {
+      "id": 3,
+      "user": "What are some good study habits?",
+      "ai": "There are many! Here are a few: active learning, spaced repetition, setting goals, and creating a study schedule. Would you like to know more about any of these?"
+    },
+    {
+      "id": 4,
+      "user": "I feel overwhelmed with my workload. Any tips?",
+      "ai": "I understand. Try creating a to-do list, prioritizing tasks, and breaking down large projects into smaller steps. Do you need help managing your schedule?"
+    },
+    {
+      "id": 5,
+      "user": "How can I improve my concentration while studying?",
+      "ai": "Minimizing distractions is key! Find a quiet place to study, silence your phone notifications, and use techniques like the Pomodoro Technique (25-minute focused work sessions with short breaks)."
+    },
+    {
+      "id": 6,
+      "user": "What are some effective memorization techniques?",
+      "ai": "There are many! Some popular ones include flashcards, mnemonics (memory aids), spaced repetition, and practice tests.  Would you like to know more about any of them?"
+    },
+    {
+      "id": 7,
+      "user": "I'm stressed about an upcoming exam. Any advice?",
+      "ai": "Don't worry, I can help! Make sure you understand the material, practice with past exams or sample questions, and get a good night's sleep before the exam."
+    },
+    {
+      "id": 8,
+      "user": "How can I find scholarships or financial aid?",
+      "ai": "There are many resources available! You can search online for scholarships related to your field of study or check with your school's financial aid office."
+    },
+    {
+      "id": 9,
+      "user": "What are some good time management tips for students?",
+      "ai": "Planning is crucial! Use a calendar or planner to schedule classes, study time, assignments, and leisure activities. Be realistic about how much you can accomplish each day."
+    },
+    {
+      "id": 10,
+      "user": "I'm not sure what career path to choose. Can you help?",
+      "ai": "I can definitely help you explore options! Consider your interests, skills, and values. Research different careers and talk to professionals in fields that intrigue you."
+    },
+    {
+      "id": 11,
+      "user": "I'm struggling with math. Can you explain derivatives?",
+      "ai": "Sure, derivatives are..."
+    },
+    {
+      "id": 12,
+      "user": "Can you help me write a thesis statement for my history essay?",
+      "ai": "Absolutely! A good thesis statement summarizes your main argument. What's your essay topic?"
+    },
+    {
+      "id": 13,
+      "user": "I need to write a lab report for science class. Any tips?",
+      "ai": "Sure! A lab report typically includes an introduction, materials and methods, results, discussion, and conclusion. Do you need help with any specific section?"
+    },
+    {
+      "id": 14,
+      "user": "I'm confused about the different types of clauses in English grammar.",
+      "ai": "No problem! Clauses are groups of words with a subject and a verb. There are different types like independent clauses, dependent clauses, etc. Would you like me to explain them further?"
+    },
+    {
+      "id": 15,
+      "user": "Can you help me brainstorm ideas for my art project?",
+      "ai": "Of course! What kind of art are you interested in? Here are some prompts to get you started"
+    }
+  ]
 }
